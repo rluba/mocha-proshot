@@ -1,6 +1,6 @@
 {
   "name": "mocha-proshot",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Mocha reporter that takes screenshot after protractor tests",
   "homepage": "https://github.com/rluba/mocha-proshot",
   "author": {
@@ -17,10 +17,7 @@
   "bugs": {
     "url": "https://github.com/rluba/mocha-proshot/issues"
   },
-  "license": {
-    "type": "MIT",
-    "url": "https://raw.github.com/rluba/mocha-proshot/master/LICENSE"
-  },
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git@github.com:rluba/mocha-proshot.git"
@@ -29,7 +26,6 @@
     "node": ">=0.10.0"
   },
   "main": "index.js",
-  "license": "MIT",
   "dependencies": {
     "mkdirp": "^0.5.0",
     "q": "^1.0.1"
