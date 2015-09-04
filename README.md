@@ -44,3 +44,5 @@ exports.config = {
 	...
 };
 ```
+
+** Caveat: `mocha-multi` does not work together with Protractor's sharding feature because the latter depends on some internals of builtin mocha reporters that `mocha-multi` does not emulate. ** So use `mocha-proshot` directly if you require on sharding.

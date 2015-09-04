@@ -32,7 +32,8 @@ function takeScreenshot(title) {
 }
 
 function ProshotReporter(runner) {
-	runner.on('fail', function(test) {
+	runner.on('fail', function(test, err) {
+		test.err = err;
 		return takeScreenshot(test.fullTitle());
 	});
 }
